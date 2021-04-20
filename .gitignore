@@ -1,0 +1,4 @@
+*.retry
+.idea/
+venv/
+galaxy-roles/

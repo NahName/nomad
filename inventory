@@ -1,4 +1,4 @@
 [nomad_instances]
-localhost nomad_node_role=server nomad_bootstrap_expect=1
-135.181.97.190  nomad_node_role=client
-135.181.207.227 nomad_node_role=client
+65.21.5.153 nomad_node_role=server nomad_bootstrap_expect=1 ansible_user=root 
+135.181.97.190  nomad_node_role=client ansible_user=root
+135.181.207.227 nomad_node_role=client ansible_user=root

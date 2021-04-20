@@ -1,0 +1,7 @@
+---
+
+- src: https://github.com/ansible-community/ansible-nomad
+  name: brianshumate.nomad
+  version: 78e736248cc8a2616525dd55427869a6889f3e5b
+
+- src: geerlingguy.docker
