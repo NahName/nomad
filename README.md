@@ -8,4 +8,19 @@
 4. ставим докер на виртуалки копируем файлы-задачи по использованию docker-драйвера. стартуем job.
 
 
+# Environment
 
+- Install [direnv](https://github.com/direnv/direnv/blob/master/docs/installation.md)
+
+- Add [hook](https://github.com/direnv/direnv/blob/master/docs/hook.md)
+
+```shell
+# allow direnv
+direnv allow
+
+# install role vendors
+ansible-galaxy install -r requirements.yml --force
+
+# run playbook
+ansible-playbook site.yml -i inventory
+```
